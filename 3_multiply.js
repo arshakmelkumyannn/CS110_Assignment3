@@ -1,4 +1,4 @@
-let num1 = 1324924;
+let num1 = 4;
 let num2 = 104;
 let i = 0;
 let answer = 0;

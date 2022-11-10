@@ -1,4 +1,4 @@
-let grade = 98;
+let grade = 69;
 let letterGrade = "";
 let check = "";
 
@@ -42,10 +42,7 @@ switch (letterGrade) {
     case "C-":
         check = "passed";
         break;
-    case "D+":
-    case "D":
-    case "D-":
-    case "F":
+    default:
         check = "failed";
         break;
 }

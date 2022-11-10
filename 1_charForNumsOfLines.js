@@ -1,12 +1,16 @@
-let n = 6;
+let n = 5;
 let i = 0;
-let l = 0;
+
 let str = "";
-while (l < n) {
-    while (i < n) {
-        str += "+";
-        i++;
-    }
+
+while (i < n) {
+    str += "+";
+    i++;
+}
+
+i = 0;
+
+while (i < n) {
     console.log(str);
-    l++;
+    i++;
 }
